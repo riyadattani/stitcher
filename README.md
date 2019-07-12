@@ -9,4 +9,8 @@ Just a simple boilerplate for a web server tested with Jest.
 
 ## get started
 
-`nvm use &&npm i && npm test`
+`$ nvm use && npm i && npm test`
+
+## run
+
+`$ node index.js`

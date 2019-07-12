@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send(400))
+app.get('/', (req, res) => res.sendStatus(400))
 
 module.exports = app
