@@ -5,6 +5,6 @@ describe('Stitcher', () => {
     test('Bad request when no URIs passed through', async () => {
         await request(app)
         .get('/')
-        .expect(400)
+        .expect(200, 'Hello, world')
     });
 })
