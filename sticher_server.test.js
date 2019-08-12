@@ -3,8 +3,7 @@ const request = require('supertest')
 
 describe('Stitcher', () => {
     test('Says hello', async () => {
-        await request(app)
-        .get('/')
-        .expect(200, 'Hello, World\n') // i suck
+        const response = await request(app).get('/')
+        expect(response.text).toEqual('Hello, World\n')
     });
 })
