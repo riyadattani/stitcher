@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "jest": "^24.8.0",
+    "mustache": "^3.0.1",
+    "mustache-express": "^1.2.8",
     "supertest": "^4.0.2"
   }
 }
