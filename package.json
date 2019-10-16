@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "start": "node index.js"
+    "start": "nodemon node index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,10 @@
     "jest": "^24.8.0",
     "mustache": "^3.0.1",
     "mustache-express": "^1.2.8",
+    "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": ["*.test.js"]
   }
 }
