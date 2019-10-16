@@ -4,6 +4,6 @@ const request = require('supertest')
 describe('Stitcher', () => {
     test('Says hello', async () => {
         const response = await request(app).get('/')
-        expect(response.text).toEqual('Hello, World\n')
+        expect(response.text).toMatch('Hello, World')
     });
 })

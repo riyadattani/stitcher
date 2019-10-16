@@ -11,12 +11,16 @@ Just a simple boilerplate for a web server tested with Jest.
 
 ## get started
 
-`$ nvm use && npm i`
+`$ nvm use && yarn`
 
 ## test
 
-`$ npm test`
+`$ yarn test`
+
+or 
+
+`$ yarn test:watch`
 
 ## launch webserver
 
-`$ npm start`
+`$ yarn start`
