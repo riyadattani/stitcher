@@ -9,8 +9,10 @@ Just a simple boilerplate for a web server tested with Jest.
 
 ## get started
 
-`$ nvm use && yarn`
-`$ npm run build`
+```
+$ nvm use && npm i
+$ npm run build
+```
 
 ## test
 
