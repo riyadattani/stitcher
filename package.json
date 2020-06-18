@@ -6,20 +6,30 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "start": "nodemon node index.js"
+    "start": "nodemon node lib/index.js",
+    "build": "babel src -d lib"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "jest": "^24.8.0",
     "mustache": "^3.0.1",
-    "mustache-express": "^1.2.8",
+    "mustache-express": "^1.2.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "fetch-mock": "^9.9.0",
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0",
     "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
   },
   "nodemonConfig": {
-    "ignore": ["*.test.js"]
+    "ignore": [
+      "*.test.js"
+    ]
   }
 }
