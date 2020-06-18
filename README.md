@@ -1,7 +1,5 @@
 # express jest boilerplate
 
-[![Build Status](https://travis-ci.org/quii/express-jest-boilerplate.svg?branch=master)](https://travis-ci.org/quii/express-jest-boilerplate)
-
 Just a simple boilerplate for a web server tested with Jest.
 
 ## prereqs
@@ -12,15 +10,16 @@ Just a simple boilerplate for a web server tested with Jest.
 ## get started
 
 `$ nvm use && yarn`
+`$ npm run build`
 
 ## test
 
-`$ yarn test`
+`$ npm run test`
 
 or 
 
-`$ yarn test:watch`
+`$ npm run test:watch`
 
 ## launch webserver
 
-`$ yarn start`
+`$ npm run start`
